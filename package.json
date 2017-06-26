@@ -1,0 +1,14 @@
+{
+  "name": "v-debounce",
+  "version": "0.0.1",
+  "description": "Input debounce directive for Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vue build docs.vue",
+    "docs:build": "vue build ./docs.vue --config ./docs.build.js --dist ./docs/ --prod",
+    "docs:serve": "open http://localhost:5000/docs/ && serve ./"
+  },
+  "keywords": ["vuejs", "debounce", "directive", "input"],
+  "author": "Marcos Neves <marcos.neves@gmail.com> (https://medium.com/vuejs-tips)",
+  "license": "MIT"
+}
